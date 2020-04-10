@@ -1,10 +1,11 @@
 $(function(){
 
     // FooTable components and options
-    $('.table').footable({
+    $('#patient-list').footable({
         "filtering": {
-            "enabled": true,
-            "container": "#filter-form-container"
+            "enabled": true
+            // "container": "#filter-form-container",
+            // "dropdownTitle": "Search in:"
         }
     });
 
