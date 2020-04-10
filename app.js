@@ -39,7 +39,6 @@ mongoose.set('useFindAndModify', false);
 // addresses 302 get favicon error
 app.use(favicon(path.join(__dirname, 'public/images/icons', 'favicon.ico')));
 
-
 // app configuration
 app.use(logger('dev'));
 app.set('view engine', 'ejs');
